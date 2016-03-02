@@ -6,7 +6,7 @@ Playground for PluralSight [course] (https://www.pluralsight.com/courses/django-
 
 ### virtualenv
 
-- create a new virtual environment `virtualenv`:
+- create a new virtual environment using `virtualenv`:
 
 `virtualenv -p [path\to\python.exe] django-fundamentals`
 
