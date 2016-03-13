@@ -18,7 +18,7 @@ Playground for PluralSight [course] (https://www.pluralsight.com/courses/django-
 ### start new django project
 `django-admin.py startproject [project name]`
 
-*django-admin.py* must be in path
+Note: *django\bin* (where *django-admin.py* lives) must be in path.
 
 #### start new app
 `python manage.py startapp [app name]`
