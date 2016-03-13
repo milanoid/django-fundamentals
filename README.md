@@ -21,6 +21,17 @@ Note: *django\bin* (where *django-admin.py* lives) must be in path.
 ### start new app
 `python manage.py startapp [app name]`
 
-## Views
+## Model-Template-View desing pattern (vs MVC)
 
-Django *Views* are what other frameworks call *Controllers*
+### Model
+- Represents your data
+- Each model class represents a database table
+
+### View (*Controller* in MVC)
+- Takes HTTP request and return response
+- May use model to retrieve/store data
+- May call a template to present data
+
+### Template (*View* in MVC)
+- Generate HTML
+- Presentation logic only
