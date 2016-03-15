@@ -36,9 +36,16 @@ Note: *django\bin* (where *django-admin.py* lives) must be in path.
 - Generate HTML
 - Presentation logic only
 
-# Models
+## Models
 
 - `python manage.py startapp tictactoe`
 - create model classes *Game* and *Move*
+- create migration via `python manage.py makemigration` (as we created new models)
 - let django create database tables `python manage.py migrate` (note: *syncdb* is deprecated)
+
+### Model Classes
+
+- each model class maps to a database table
+- each attribute of the model represents a database field
+
 
