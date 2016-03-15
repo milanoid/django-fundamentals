@@ -35,3 +35,9 @@ Note: *django\bin* (where *django-admin.py* lives) must be in path.
 ### Template (*View* in MVC)
 - Generate HTML
 - Presentation logic only
+
+# Models
+
+- `python manage.py startapp tictactoe`
+- create models *Game* and *Move*
+
