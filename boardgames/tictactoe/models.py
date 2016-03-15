@@ -9,9 +9,13 @@ class Game(models.Model):
     start_time = models.DateTimeField(auto_now_add=True)
     last_active = models.DateTimeField(auto_now=True)
 
+    def __str__(self):
+        return "{0} vs {1}".format(self.first_player, self.second_player)
+
 
 class Move(models.Model):
     x = models.IntegerField()
     y = models.IntegerField()
     comment = models.CharField(max_length=300)
     game = models.ForeignKey(Game)
+
