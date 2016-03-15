@@ -39,5 +39,6 @@ Note: *django\bin* (where *django-admin.py* lives) must be in path.
 # Models
 
 - `python manage.py startapp tictactoe`
-- create models *Game* and *Move*
+- create model classes *Game* and *Move*
+- let django create database tables `python manage.py migrate` (note: *syncdb* is deprecated)
 
